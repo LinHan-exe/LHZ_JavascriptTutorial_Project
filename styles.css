@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+}
+
+.nav-container{
+    height: 75px;
+    width: 1fr;
+    background: black;
+    text-align: left;
+    display:flex;
+}
+
+.logo{
+    width:55px;
+    height:55px;
+    border-width: 50%;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+.title{
+    color:white;
+    margin-top: 25px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-text{
+    color:white;
+}
+
+ul {
+    background-color:black;
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li{
+    margin-left: 25px;
+    width:50px;
+    height:50px;
+    float: right;
+}
