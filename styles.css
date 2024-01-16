@@ -45,10 +45,10 @@ ul {
     height: 75px;
 }
 
-button{
+a{
     background-color: black;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 27px;
     margin-left: 25px;
     margin-right: 25px;
     height: 55px;
@@ -57,27 +57,32 @@ button{
     font-size: large;
     transition-duration: 0.2s;
     border:black;
-}
-
-button:hover{
-    background-color:#333333;
+    text-decoration: none;
 }
 
 .main-content{
     margin: auto;
     background-color: #74A6E1;
-    height: 1250px;
+    height: 1150px;
     width: 50%;
     margin-top: 100px;
 }
 
 .title-content{
-    margin-left: 0%;
+    width: 50%;
+    height: 100px;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 75px;
+    color:white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 250%;
+    font-weight: bold;
 }
 
 .title-body{
     margin: auto;
-    width: 50%;
+    width: 100%;
     font-size: xx-large;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -86,4 +91,26 @@ button:hover{
 
 .extension{
     height: 100px;
+}   
+
+.lesson{
+    height: 200px;
+    width: 100%;  
+    margin-top: 0px;
+}
+
+.text1{
+    text-align: center;
+    margin-left: 0px;
+    width: 50%;
+    height: 35px;
+    color: black;
+    font-size: 175%;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition-duration: 0.5s;
+}
+
+.text1:hover{
+    color: rgb(255, 255, 255);
 }
